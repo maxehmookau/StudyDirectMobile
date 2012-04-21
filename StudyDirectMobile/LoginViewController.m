@@ -8,7 +8,7 @@
 
 #import "LoginViewController.h"
 #import "SDMCourseListParser.h"
-#import "SDMCourse.h"
+#import "CourseListViewController.h"
 @interface LoginViewController ()
 
 @end
@@ -56,6 +56,8 @@
 {
     NSArray *courseList = [SDMCourseListParser arrayWithCourseData:receivedData];
     //Pass this to the next view controller
+    CourseListViewController *nextVC = [[CourseListViewController alloc] initWithCourseList:courseList];
+    [self.navigationController pushViewController:nextVC animated:YES];
 }
 
 #pragma mark - View Lifecycle

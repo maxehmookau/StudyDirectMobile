@@ -20,6 +20,7 @@
     LoginViewController *loginVC = [[LoginViewController alloc] init];
     UINavigationController *navCon = [[UINavigationController alloc] initWithRootViewController:loginVC];
     [navCon setNavigationBarHidden:YES];
+    [navCon.navigationBar setBackgroundImage:[UIImage imageNamed:@"iphone-menubar.png"] forBarMetrics:UIBarMetricsDefault];
     self.window.rootViewController = navCon;
     [self.window makeKeyAndVisible];
     return YES;

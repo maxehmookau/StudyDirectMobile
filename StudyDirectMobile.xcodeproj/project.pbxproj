@@ -26,6 +26,11 @@
 		506ACA291541AB6C006C1AC7 /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 506ACA231541AB6C006C1AC7 /* icon3.png */; };
 		506ACA2A1541AB6C006C1AC7 /* icon3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 506ACA241541AB6C006C1AC7 /* icon3@2x.png */; };
 		506ACA2D1541F3F3006C1AC7 /* FetchCourseListConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 506ACA2C1541F3F3006C1AC7 /* FetchCourseListConnection.m */; };
+		50AA9CA31543407600A2AFEF /* CourseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AA9CA21543407600A2AFEF /* CourseCell.xib */; };
+		50AA9CA6154349D100A2AFEF /* iphone-menubar.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AA9CA4154349D100A2AFEF /* iphone-menubar.png */; };
+		50AA9CA7154349D100A2AFEF /* iphone-menubar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AA9CA5154349D100A2AFEF /* iphone-menubar@2x.png */; };
+		50AA9CAA15434C0600A2AFEF /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AA9CA815434C0600A2AFEF /* back.png */; };
+		50AA9CAB15434C0600A2AFEF /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AA9CA915434C0600A2AFEF /* back@2x.png */; };
 		50DBEC361542F44100DFF81B /* SDMCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DBEC351542F44100DFF81B /* SDMCourse.m */; };
 		50DBEC3A1542F61200DFF81B /* SDMCourseListParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DBEC391542F61200DFF81B /* SDMCourseListParser.m */; };
 		50DBEC551542F72100DFF81B /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DBEC3D1542F72100DFF81B /* NSObject+SBJson.m */; };
@@ -41,6 +46,9 @@
 		50DBEC5F1542F72100DFF81B /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DBEC521542F72100DFF81B /* SBJsonUTF8Stream.m */; };
 		50DBEC601542F72100DFF81B /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DBEC541542F72100DFF81B /* SBJsonWriter.m */; };
 		50DBEC621542FF3100DFF81B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 50DBEC611542FF3100DFF81B /* README.md */; };
+		50DBEC67154316E600DFF81B /* CourseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DBEC65154316E600DFF81B /* CourseListViewController.m */; };
+		50DBEC68154316E600DFF81B /* CourseListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50DBEC66154316E600DFF81B /* CourseListViewController.xib */; };
+		50DBEC7015431DA600DFF81B /* CourseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DBEC6F15431DA600DFF81B /* CourseCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +78,11 @@
 		506ACA241541AB6C006C1AC7 /* icon3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon3@2x.png"; path = "../../../../../Desktop/icon3@2x.png"; sourceTree = "<group>"; };
 		506ACA2B1541F3F3006C1AC7 /* FetchCourseListConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchCourseListConnection.h; sourceTree = "<group>"; };
 		506ACA2C1541F3F3006C1AC7 /* FetchCourseListConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchCourseListConnection.m; sourceTree = "<group>"; };
+		50AA9CA21543407600A2AFEF /* CourseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseCell.xib; sourceTree = "<group>"; };
+		50AA9CA4154349D100A2AFEF /* iphone-menubar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-menubar.png"; sourceTree = "<group>"; };
+		50AA9CA5154349D100A2AFEF /* iphone-menubar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-menubar@2x.png"; sourceTree = "<group>"; };
+		50AA9CA815434C0600A2AFEF /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		50AA9CA915434C0600A2AFEF /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
 		50DBEC341542F44100DFF81B /* SDMCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDMCourse.h; path = Entities/SDMCourse.h; sourceTree = "<group>"; };
 		50DBEC351542F44100DFF81B /* SDMCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDMCourse.m; path = Entities/SDMCourse.m; sourceTree = "<group>"; };
 		50DBEC381542F61200DFF81B /* SDMCourseListParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMCourseListParser.h; sourceTree = "<group>"; };
@@ -100,6 +113,11 @@
 		50DBEC531542F72100DFF81B /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		50DBEC541542F72100DFF81B /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		50DBEC611542FF3100DFF81B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		50DBEC64154316E600DFF81B /* CourseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseListViewController.h; path = CourseList/CourseListViewController.h; sourceTree = "<group>"; };
+		50DBEC65154316E600DFF81B /* CourseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseListViewController.m; path = CourseList/CourseListViewController.m; sourceTree = "<group>"; };
+		50DBEC66154316E600DFF81B /* CourseListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CourseListViewController.xib; path = CourseList/CourseListViewController.xib; sourceTree = "<group>"; };
+		50DBEC6E15431DA600DFF81B /* CourseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseCell.h; sourceTree = "<group>"; };
+		50DBEC6F15431DA600DFF81B /* CourseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,8 +172,9 @@
 				506ACA1515418F1E006C1AC7 /* UI Elements */,
 				506ACA1015418D91006C1AC7 /* Images */,
 				506ACA0515418929006C1AC7 /* Login */,
-				506AC9F5154188A5006C1AC7 /* SDMAppDelegate.h */,
+				50DBEC631543167800DFF81B /* Course List */,
 				506AC9F6154188A5006C1AC7 /* SDMAppDelegate.m */,
+				506AC9F5154188A5006C1AC7 /* SDMAppDelegate.h */,
 				506AC9ED154188A5006C1AC7 /* Supporting Files */,
 			);
 			path = StudyDirectMobile;
@@ -187,6 +206,10 @@
 		506ACA1015418D91006C1AC7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				50AA9CA815434C0600A2AFEF /* back.png */,
+				50AA9CA915434C0600A2AFEF /* back@2x.png */,
+				50AA9CA4154349D100A2AFEF /* iphone-menubar.png */,
+				50AA9CA5154349D100A2AFEF /* iphone-menubar@2x.png */,
 				506ACA1F1541AB6C006C1AC7 /* icon1.png */,
 				506ACA201541AB6C006C1AC7 /* icon1@2x.png */,
 				506ACA211541AB6C006C1AC7 /* icon2.png */,
@@ -259,6 +282,19 @@
 			name = JSON;
 			sourceTree = "<group>";
 		};
+		50DBEC631543167800DFF81B /* Course List */ = {
+			isa = PBXGroup;
+			children = (
+				50DBEC64154316E600DFF81B /* CourseListViewController.h */,
+				50DBEC65154316E600DFF81B /* CourseListViewController.m */,
+				50DBEC66154316E600DFF81B /* CourseListViewController.xib */,
+				50DBEC6E15431DA600DFF81B /* CourseCell.h */,
+				50DBEC6F15431DA600DFF81B /* CourseCell.m */,
+				50AA9CA21543407600A2AFEF /* CourseCell.xib */,
+			);
+			name = "Course List";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -321,6 +357,12 @@
 				506ACA291541AB6C006C1AC7 /* icon3.png in Resources */,
 				506ACA2A1541AB6C006C1AC7 /* icon3@2x.png in Resources */,
 				50DBEC621542FF3100DFF81B /* README.md in Resources */,
+				50DBEC68154316E600DFF81B /* CourseListViewController.xib in Resources */,
+				50AA9CA31543407600A2AFEF /* CourseCell.xib in Resources */,
+				50AA9CA6154349D100A2AFEF /* iphone-menubar.png in Resources */,
+				50AA9CA7154349D100A2AFEF /* iphone-menubar@2x.png in Resources */,
+				50AA9CAA15434C0600A2AFEF /* back.png in Resources */,
+				50AA9CAB15434C0600A2AFEF /* back@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +392,8 @@
 				50DBEC5E1542F72100DFF81B /* SBJsonTokeniser.m in Sources */,
 				50DBEC5F1542F72100DFF81B /* SBJsonUTF8Stream.m in Sources */,
 				50DBEC601542F72100DFF81B /* SBJsonWriter.m in Sources */,
+				50DBEC67154316E600DFF81B /* CourseListViewController.m in Sources */,
+				50DBEC7015431DA600DFF81B /* CourseCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
