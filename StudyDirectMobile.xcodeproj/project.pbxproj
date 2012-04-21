@@ -40,6 +40,7 @@
 		50DBEC5E1542F72100DFF81B /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DBEC501542F72100DFF81B /* SBJsonTokeniser.m */; };
 		50DBEC5F1542F72100DFF81B /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DBEC521542F72100DFF81B /* SBJsonUTF8Stream.m */; };
 		50DBEC601542F72100DFF81B /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DBEC541542F72100DFF81B /* SBJsonWriter.m */; };
+		50DBEC621542FF3100DFF81B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 50DBEC611542FF3100DFF81B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,7 @@
 		50DBEC521542F72100DFF81B /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
 		50DBEC531542F72100DFF81B /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		50DBEC541542F72100DFF81B /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		50DBEC611542FF3100DFF81B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		506AC9D7154188A5006C1AC7 = {
 			isa = PBXGroup;
 			children = (
+				50DBEC611542FF3100DFF81B /* README.md */,
 				506AC9EC154188A5006C1AC7 /* StudyDirectMobile */,
 				506AC9E5154188A5006C1AC7 /* Frameworks */,
 				506AC9E3154188A5006C1AC7 /* Products */,
@@ -317,6 +320,7 @@
 				506ACA281541AB6C006C1AC7 /* icon2@2x.png in Resources */,
 				506ACA291541AB6C006C1AC7 /* icon3.png in Resources */,
 				506ACA2A1541AB6C006C1AC7 /* icon3@2x.png in Resources */,
+				50DBEC621542FF3100DFF81B /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
